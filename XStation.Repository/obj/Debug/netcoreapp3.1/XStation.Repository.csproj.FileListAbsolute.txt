@@ -1,0 +1,13 @@
+C:\Projetos\ApiXstation\XStation.Repository\bin\Debug\netcoreapp3.1\XStation.Repository.deps.json
+C:\Projetos\ApiXstation\XStation.Repository\bin\Debug\netcoreapp3.1\XStation.Repository.runtimeconfig.json
+C:\Projetos\ApiXstation\XStation.Repository\bin\Debug\netcoreapp3.1\XStation.Repository.runtimeconfig.dev.json
+C:\Projetos\ApiXstation\XStation.Repository\bin\Debug\netcoreapp3.1\XStation.Repository.dll
+C:\Projetos\ApiXstation\XStation.Repository\bin\Debug\netcoreapp3.1\XStation.Repository.pdb
+C:\Projetos\ApiXstation\XStation.Repository\obj\Debug\netcoreapp3.1\XStation.Repository.csproj.AssemblyReference.cache
+C:\Projetos\ApiXstation\XStation.Repository\obj\Debug\netcoreapp3.1\XStation.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\ApiXstation\XStation.Repository\obj\Debug\netcoreapp3.1\XStation.Repository.AssemblyInfoInputs.cache
+C:\Projetos\ApiXstation\XStation.Repository\obj\Debug\netcoreapp3.1\XStation.Repository.AssemblyInfo.cs
+C:\Projetos\ApiXstation\XStation.Repository\obj\Debug\netcoreapp3.1\XStation.Repository.csproj.CoreCompileInputs.cache
+C:\Projetos\ApiXstation\XStation.Repository\obj\Debug\netcoreapp3.1\XStation.Repository.dll
+C:\Projetos\ApiXstation\XStation.Repository\obj\Debug\netcoreapp3.1\XStation.Repository.pdb
+C:\Projetos\ApiXstation\XStation.Repository\obj\Debug\netcoreapp3.1\XStation.Repository.genruntimeconfig.cache
