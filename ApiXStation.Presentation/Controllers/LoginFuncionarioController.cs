@@ -15,6 +15,7 @@ namespace ApiXStation.Presentation.Controllers
     public class LoginFuncionarioController : ControllerBase
     {
         [HttpPost]
+        
         public IActionResult Post(LoginModel model,
             [FromServices] IFuncionarioRepository funcionarioRepository,
             [FromServices] JwtConfiguration jwtConfiguration)

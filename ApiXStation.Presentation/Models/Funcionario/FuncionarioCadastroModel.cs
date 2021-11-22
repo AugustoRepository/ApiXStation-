@@ -14,6 +14,6 @@ namespace ApiXStation.Presentation.Models.Funcionario
         public string Telefone1 { get; set; }
         public string Telefone2 { get; set; }
         public DateTime DataNascimento { get; set; }
-        public int IdPerfil { get; set; }
+        public string IdPerfil { get; set; }
     }
 }

@@ -15,6 +15,7 @@ namespace ApiXStation.Presentation.Controllers
     public class LoginClienteController : ControllerBase
     {
         [HttpPost]
+        
         public IActionResult Post(LoginModel model,
             [FromServices] IClienteRepository clienteRepository,
             [FromServices] JwtConfiguration jwtConfiguration)

@@ -37,7 +37,7 @@ namespace ApiXStation.Presentation.Controllers
                     funcionario.Telefone2 = model.Telefone2;
                     funcionario.DataNascimento = model.DataNascimento;
                     funcionario.DataCriacao = DateTime.Now;
-                    funcionario.IdPerfil = model.IdPerfil;
+                    funcionario.IdPerfil = int.Parse(model.IdPerfil);
 
                     funcionarioRepository.Insert(funcionario);
 

@@ -19,7 +19,7 @@ namespace ApiXStation.Presentation.Controllers
         public IActionResult Post(ClienteCadastroModel model,
             [FromServices] IClienteRepository clienteRepository)
         {
-            try
+            try  
             {
                 if (clienteRepository.GetByCpf(model.Cpf) != null)
                 {
@@ -36,7 +36,7 @@ namespace ApiXStation.Presentation.Controllers
                     cliente.Telefone2 = model.Telefone2;
                     cliente.DataNascimento = model.DataNascimento;
                     cliente.DataCriacao = DateTime.Now;
-                    cliente.IdPerfil = model.IdPerfil;
+                    cliente.IdPerfil = 2;
 
                     clienteRepository.Insert(cliente);
 

@@ -55,6 +55,7 @@ namespace ApiXStation.Presentation
             services.AddTransient<IClienteRepository, ClienteRepository>();
             services.AddTransient<IEnderecoRepository, EnderecoRepository>();
             services.AddTransient<IFuncionarioRepository, FuncionarioRepository>();
+            services.AddTransient<IPerfilRepository, PerfilRepository>();
 
             #region ConfiguracaoJwt
 
@@ -86,6 +87,16 @@ namespace ApiXStation.Presentation
 
             services.AddTransient(map => new JwtConfiguration(appSettings));
             #endregion
+
+            #region CORS
+            services.AddCors(s => s.AddPolicy("DefaultPolicy",
+                builder => 
+                {
+                    builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+                }));
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -97,6 +108,10 @@ namespace ApiXStation.Presentation
             }
 
             app.UseRouting();
+
+            #region CORS
+            app.UseCors("DefaultPolicy");
+            #endregion
 
             app.UseAuthentication();
             app.UseAuthorization();
